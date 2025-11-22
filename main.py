@@ -2,7 +2,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 # <<<=== ВПИШИ СВОЙ ТОКЕН и ссылку на мини-апп ===>>>
 TOKEN = "8261494879:AAGGHa-BiI03J1UGPntKvZ2i2lmNOM3fu8Q"
-WEBAPP_URL = "https://studio--studio-5190521603-8e50f.us-central1.hosted.app"
+WEBAPP_URL = "8260962109:AAFLHEhOlrEbe85mu4FLmrkbbuR5WYhaiFM"
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
 @bot.message_handler(commands=['start'])
 def start(message):
